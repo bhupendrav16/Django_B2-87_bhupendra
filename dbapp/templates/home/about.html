@@ -1,0 +1,34 @@
+{% extends "home/base.html" %}
+
+{% block content %}
+<style>
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<div class="container" >
+
+    <div class="card" style="width: 13rem;">
+        <img src="/static/images/owl.jpg" class="card-img-top" alt="owl"height="130px">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+  </div>
+  <div class="card" style="width: 13rem;">
+      <img src="/static/images/monster.jpg" class="card-img-top" alt="owl"height="130px">
+      <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div><div class="card" style="width: 13rem;">
+        <img src="/static/images/human.jpg" class="card-img-top" alt="owl"height="130px">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}
